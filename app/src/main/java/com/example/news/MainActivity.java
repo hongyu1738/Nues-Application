@@ -279,9 +279,9 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    /*public void hideKeyboard(View view) { //Hide keyboard and clear focus of autocompletetextview
+    public void hideKeyboard(View view) { //Hide keyboard and clear focus of autocompletetextview
         InputMethodManager imm = (InputMethodManager) mEditText.getContext().getSystemService(Context.INPUT_METHOD_SERVICE);
         imm.hideSoftInputFromWindow(mEditText.getWindowToken(), 0);
         mEditText.clearFocus();
-    }*/
+    }
 }
