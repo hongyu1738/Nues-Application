@@ -50,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
     private Button mButton;
 
     long maxId = 0;
+    final String API_KEY = "YOUR_API_KEY";
     Adapter mAdapter;
     List<Articles> mArticlesList = new ArrayList<>();
     DatabaseReference reff;
